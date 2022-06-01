@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".NoteDescriptionActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_detailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is detail title"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/tv_detailCreatedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/tv_detailDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is detail description"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        />
+
+
+
+</LinearLayout>
